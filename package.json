@@ -1,6 +1,6 @@
 {
   "name": "@tomleo/nuxt-auth-cognito-scheme",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Use amazon-cognito-identity-js with the Nuxt.js Auth Module.",
   "main": "index.js",
   "author": "tom <tom@tomleo>",
