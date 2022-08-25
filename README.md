@@ -1,17 +1,20 @@
-# @sirdiego/nuxt-auth-cognito-scheme
+# @tomleo/nuxt-auth-cognito-scheme
+
+Form of [@sirdiego/nuxt-auth-cognito-scheme]() only expecting email instead of username
+for login.
 
 ## Setup
 
 Install with npm:
 
 ```bash
-npm install --save @sirdiego/nuxt-auth-cognito-scheme
+npm install --save @tomleo/nuxt-auth-cognito-scheme
 ```
 
 Install with yarn:
 
 ```bash
-yarn add @sirdiego/nuxt-auth-cognito-scheme
+yarn add @tomleo/nuxt-auth-cognito-scheme
 ```
 
 Edit `nuxt.config.js`:
@@ -20,7 +23,7 @@ Edit `nuxt.config.js`:
 {
   modules: [
     '@nuxtjs/axios',
-    '@sirdiego/nuxt-auth-cognito-scheme', // Insert before @nuxtjs/auth
+    '@tomleo/nuxt-auth-cognito-scheme', // Insert before @nuxtjs/auth
     '@nuxtjs/auth'
   ],
   auth: {

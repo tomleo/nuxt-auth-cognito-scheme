@@ -77,7 +77,7 @@ export default class CognitoAuthScheme {
   async login({ data }) {
     await this.$auth.reset();
 
-    const result = await this._login(data.username, data.password);
+    const result = await this._login(data.email, data.password);
     const idToken = result.getIdToken().getJwtToken();
     const token = this.options.tokenType
       ? this.options.tokenType + " " + idToken
@@ -178,14 +178,14 @@ export default class CognitoAuthScheme {
     return Promise.resolve();
   }
 
-  async _login(Username, Password) {
+  async _login(Email, Password) {
     return new Promise((resolve, reject) => {
       const authenticationDetails = new AuthenticationDetails({
-        Username,
+        Email,
         Password,
       });
       const cognitoUser = new CognitoUser({
-        Username,
+        Email,
         Pool: this.$pool,
         Storage: this.$storage,
       });
