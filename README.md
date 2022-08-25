@@ -37,3 +37,7 @@ Edit `nuxt.config.js`:
   }
 }
 ```
+
+## Versioning
+
+Adding semantic versioning & a changelog leveraging Commitizen
