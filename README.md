@@ -38,6 +38,11 @@ Edit `nuxt.config.js`:
 }
 ```
 
-## Versioning
+## Contributing
 
-Adding semantic versioning & a changelog leveraging Commitizen
+1. Install [commitizen](https://github.com/commitizen-tools/commitizen) and [pre-commit](https://pre-commit.com/)
+2. Set-up pre-commit hook via `pre-commit install`
+3. Stage changes in git (don't commit)
+4. `cz commit` to commit changes
+5. `cz ch` to generate changelog update
+6. Push changes & publish to npm
