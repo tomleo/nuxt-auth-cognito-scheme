@@ -9,5 +9,16 @@
   "dependencies": {
     "amazon-cognito-identity-js": "^4.2.4",
     "cross-fetch": "^3.0.4"
+  },
+  "scripts": {
+    "commit": "cz"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
