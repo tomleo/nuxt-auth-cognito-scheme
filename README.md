@@ -1,6 +1,6 @@
 # @tomleo/nuxt-auth-cognito-scheme
 
-Form of [@sirdiego/nuxt-auth-cognito-scheme]() only expecting email instead of username
+Fork of `@sirdiego/nuxt-auth-cognito-scheme` only expecting `email` instead of `username`
 for login.
 
 ## Setup
@@ -9,12 +9,6 @@ Install with npm:
 
 ```bash
 npm install --save @tomleo/nuxt-auth-cognito-scheme
-```
-
-Install with yarn:
-
-```bash
-yarn add @tomleo/nuxt-auth-cognito-scheme
 ```
 
 Edit `nuxt.config.js`:

@@ -7,7 +7,7 @@ import {
   CognitoUserPool,
   CognitoUser,
 } from "amazon-cognito-identity-js";
-import { UniversalStorageWrapper } from "@sirdiego/nuxt-auth-cognito-scheme/UniversalStorageWrapper";
+import { UniversalStorageWrapper } from "@tomleo/nuxt-auth-cognito-scheme/UniversalStorageWrapper";
 
 export default class CognitoAuthScheme {
   constructor(auth, options) {
